@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10rem auto;
+  border: 1px solid linear-gradient(to bottom, #4c6793 0%, #8bbccc 100%);
+  width: 50%;
+  padding: 5em;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #4c6793 0%, #8bbccc 100%);
+}

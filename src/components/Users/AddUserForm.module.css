@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 500px;
+  height: 45px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 1rem;
+  font-family: "Anton", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+}

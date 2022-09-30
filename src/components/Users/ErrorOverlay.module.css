@@ -1,0 +1,45 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.modal {
+  position: fixed;
+  top: 18vh;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header {
+  text-align: left;
+  width: 100%;
+}
+
+.header h2 {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 0.5px rgb(177, 177, 177);
+}
+
+.actions {
+  margin-left: 35rem;
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(45% - 20rem);
+    width: 40rem;
+  }
+}
